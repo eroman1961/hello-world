@@ -1,5 +1,13 @@
 {
     // Autosave after a short delay (ms)
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000
+    "files.autoSaveDelay": 1000,
+    // choose the profile name that appears in your terminal dropdown
+    "terminal.integrated.defaultProfile.windows": "Ubuntu",
+    "terminal.integrated.profiles.windows": {
+      "Ubuntu": {
+        "path": "C:\\Windows\\System32\\wsl.exe",
+        "args": []
+      }
+    }
 }
