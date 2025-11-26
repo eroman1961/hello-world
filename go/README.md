@@ -4,15 +4,15 @@ My very first repo just to familiarize myself with the functionality of GH
 ## Go
 
 Build:
-```powershell
-go build -o hello.exe
+```bash
+go build -o hello
 ```
 
 Run:
-```powershell
+```bash
 go run main.go
 # or run the built binary
-.\hello.exe
+./hello
 ```
 
 ---
@@ -23,13 +23,13 @@ go run main.go
 
 From the `go` folder:
 
-```powershell
+```bash
 go run main.go
 ```
 
 Or from the repository root:
 
-```powershell
+```bash
 go run ./go
 ```
 

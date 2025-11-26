@@ -4,7 +4,7 @@ Minimal Rust example that prints "Hello, world!".
 
 Build & run (requires Rust toolchain / `cargo`):
 
-```powershell
+```bash
 # from the repository root
 cd rust
 cargo run
@@ -21,12 +21,9 @@ Hello, world!
 
 If `cargo` is not available on your machine, install Rust using `rustup`:
 
-```powershell
-# recommended: install via the official installer (opens a browser)
-iwr https://sh.rustup.rs -UseBasicParsing | iex
-
-# or use winget if available
-winget install --id Rust.Rustup -e
+```bash
+# Install via the official installer script (Unix-like systems)
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 After installing, open a new terminal and run `cargo run` as shown above.
